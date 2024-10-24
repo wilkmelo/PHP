@@ -11,7 +11,7 @@
         $x = "abc";
         $$x = "def";
         echo "O conteúdo da variável X e $x";
-        echo "A variável criada recebeu o valor $abc";
+        echo "<br/>A variável ABC criada recebeu o valor $abc";
         ?>
     </div>
 </body>
