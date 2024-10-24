@@ -8,10 +8,12 @@
 <body>
     <div>
         <?php
-        $preco = $_get["p"];
-        echo "O preço do produto e R$ $preco";
-        $preco = $preco + ($preco*10/100);
-        echo "<br/>E o novo preco com 10% de aumento de aumento sera R$ $preco";
+        $preco = $_GET["p"];
+        echo "O preço do produto e R$ " . number_format($preco, 2, "," , ".");
+        $preco += + $preco*10/100;
+        echo "<br/>E o novo preço com 10% de aumento será R$ " . number_format($preco, 2, "," , ".");
+        $preco -= + $preco*15/100;
+        echo "<br/>E o novo preço com 15% de desconto será R$ " . number_format($preco, 2, "," , ".");
         ?>
     </div>
 </body>
