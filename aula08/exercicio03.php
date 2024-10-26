@@ -22,6 +22,7 @@
         }
         echo "O resultado da operação solicitada foi <span class='foco'>$r</span>"
         ?>
+        <a href="exercicio03.html" class="botao">Voltar</a>
     </div>
 </body>
 </html>
