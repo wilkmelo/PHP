@@ -10,8 +10,8 @@
         <form action="tabuada.php" method="get">
         <select name="num">
             <?php
-            for ($n = 1; $n = 10; $n ++);
-            echo "<option>$n</option>";
+            for ($c = 1; $c = 10; $c ++);
+            echo "<option>$c</option>";
             ?>
         </select>
         <input type="submit" value="Tabuada">

@@ -9,9 +9,9 @@
     <div>
         <?php
         $n = isset($_GET["num"])?$_GET["num"]:1;
-        for ($c = 1; $c <= 10, $c ++);
+        for ($c = 1; $c <= 10, $c +);
         $r = $c * $n;
-        echo "$n x $c = $r";
+        echo "$n x $c = $r <br/>";
         ?>
     </div>
 </body>
