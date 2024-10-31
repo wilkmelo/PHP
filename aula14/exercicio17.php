@@ -9,8 +9,9 @@
     <div>
         <?php
         $p = "Leite";
-        $sp = 4.5;
-        Echo "O $p custa R$ $pr";
+        $pr = 4.5;
+        // Echo "O $p custa R$ " . number_format($pr,2);
+        printf ("O %s custa R$ %.2f", $p, $pr);
         ?>
     </div>
 </body>
