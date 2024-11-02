@@ -8,7 +8,9 @@
 <body>
     <div>
         <?php
-        
+        $frase = "Eu vou estudar PHP";
+        $cont = str_word_count($frase, 0);
+        echo $cont;
         ?>
     </div>
 </body>
