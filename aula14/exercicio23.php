@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Funções String em PHP implode</title>
+    <title>Funções String em PHP chr</title>
 </head>
 <body>
     <div>
         <?php
-       $vetor [0] = "Curso";
-       $vetor [1] = "em";
-       $vetor [2] = "Vídeo";
-       $texto = implode ("#", $vetor);
-       print($texto);
-        ?>
+            $letra = chr(67);
+            echo " letra de codigo 67 e $letra";
+      ?>
     </div>
 </body>
 </html>
