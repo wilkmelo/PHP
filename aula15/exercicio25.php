@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Funções String em PHP ord</title>
+    <title>Funções String em PHP Strtolower</title>
 </head>
 <body>
     <div>
         <?php
-            $letra = "C";
-            $cod = ord($letra);
-            print("A letra $letra tem código $cod");
-      ?>
+        $nome = "Wilk Melo";
+        $nome2 = strtolower($nome);
+        echo "Seu nome e $nome2"; 
+        ?>
+        
     </div>
 </body>
 </html>
