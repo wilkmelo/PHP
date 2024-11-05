@@ -8,9 +8,9 @@
 <body>
     <div>
         <?php
-        $frase = "Estou apredendo PHP";
-        $pos = stripos($frase, "php");
-        echo "$frase <br/> A string foi encontrada na posição $pos";
+        $site = "Curso em Vídeo";
+        $sub = substr($site, 0, 5);
+        echo "$sub";
         ?>
         
     </div>
