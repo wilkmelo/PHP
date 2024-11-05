@@ -9,7 +9,7 @@
     <div>
         <?php
         $frase = "Estou apredendo PHP";
-        $pos = strpos($frase, "php");
+        $pos = stripos($frase, "php");
         echo "$frase <br/> A string foi encontrada na posição $pos";
         ?>
         
