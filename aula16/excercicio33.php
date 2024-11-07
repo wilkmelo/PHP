@@ -9,8 +9,8 @@
     <div>
         <pre>
         <?php
-        $n = array(3, 5, 8, 2);
-        print_r($n);
+        $c = range(5, 20, 2);
+        print_r($c);
         ?>
         </pre>
     </div>
