@@ -9,11 +9,9 @@
     <div>
         <pre>
         <?php
-        $v = array(0=>5, 
-                   1=>9,
-                   2=>8,
-                   3=>7);
-                   unset($v[0]);
+        $v = array("nome"=> "Ana", 
+                   "idade"=> 23,
+                   "peso"=> 65.5);
         print_r ($v);
         ?>
         </pre>
