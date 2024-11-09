@@ -9,10 +9,11 @@
     <div>
         <pre>
         <?php
-        $c = range(5, 20, 2);
-        foreach ($c as $v) {
-        echo "$v ";
-        }
+        $v = array(0=>5, 
+                   1=>9,
+                   2=>8,
+                   3=>7);
+        print_r ($v);
         ?>
         </pre>
     </div>
