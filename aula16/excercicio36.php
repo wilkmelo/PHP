@@ -12,7 +12,9 @@
         $v = array("nome"=> "Ana", 
                    "idade"=> 23,
                    "peso"=> 65.5);
-        print_r ($v);
+        foreach($v as $k => $c){
+         echo "O acampo $k possui o conteudo $c <br/>";
+        }
         ?>
         </pre>
     </div>
